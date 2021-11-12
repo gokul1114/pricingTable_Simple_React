@@ -1,0 +1,38 @@
+.container{
+  background-image: linear-gradient(90deg,rgb(0, 132, 255),rgb(130, 219, 246));
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  
+}
+
+.card {
+  border-radius: 5%;
+  width: 33%;
+  margin : 1% 1%;
+  
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  border-radius: 5rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+}
+
+.card:hover .btn {
+  opacity: 1;
+}
